@@ -1,0 +1,122 @@
+/* Style the header with a grey background and some padding */
+body {
+  background-color: #688c80;
+  color: black;
+}
+
+.main{
+  position: fixed;
+  top: 60px;
+}
+
+.header {
+  
+    background-color: white;
+    padding: 20px 10px;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 30px;
+    }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #ae8b99;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header-right {
+    float: right;
+  }
+
+  .header-left{
+      float: left;
+  }
+
+  .header-center{
+      float: right;
+      position: relative;
+      right: 50%;
+  }
+
+  .link:hover{
+    background-color: #ae8b99;
+    color: white;
+  }
+
+  .logo {
+    position: fixed;
+    top: 0%;
+    padding:0;
+    height:70px;
+  }
+
+.footer {
+  height: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color:#ae8b99;
+  text-align: center;
+}
+
+  .footer-left{
+      float: left;
+      padding-top: 0;
+  }
+
+  .footer-center{
+      float: right;
+      position: relative;
+      right: 50%;
+  }
+
+  .footer-right{
+      float: right;
+  }
+
+#topButton{
+  background-color: white;
+  border: none;
+  color: #ae8b99;
+}
+
+#topButton:hover{
+  background-color: #ae8b99;
+  color: white;
+}
+
+#searchheader{
+ color: black;
+ border: 2px solid #ae8b99;
+ border-radius: 25px;
+}
+::placeholder{
+  color: #ae8b99;
+} 
+
+.searchButton{ 
+  color: #ae8b99;
+  background-color: white;
+ border: 2px solid #ae8b99;
+ border-radius: 25px;
+}
+
+.searchButton:hover{
+  color: white;
+  background-color: #ae8b99;
+}
+
+#resultsListHeader {
+  background-color: white;
+  color: black
+}
