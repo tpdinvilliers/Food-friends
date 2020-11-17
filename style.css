@@ -1,0 +1,25 @@
+h1 {
+    color: black;
+    text-decoration: overlineunderline;
+    font-family: 'Sansita Swashed' , cursive;
+    font-size: large;
+}
+
+h2 {
+    color: black;
+    text-decoration: overlineunderline;
+    font-family: 'Sansita Swashed' , cursive;
+    font-size: medium;
+}
+
+h3 {
+    color: black;
+    text-decoration: overlineunderline;
+    font-family: 'Sansita Swashed' , cursive;
+    font-size: medium;
+}
+
+body {
+    background-color: cadetblue;
+}
+
