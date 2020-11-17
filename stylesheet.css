@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(19, 59, 19);
+    padding: 100px;
+    margin: 50px;
+    
+    }
+
+.bodyone {
+    padding: 100px;
+    background-color: white;
+}
+
+.title {
+    font-size: 90px;
+    text-align: center;
+}
+
+.titleone{
+    text-align: left,justify;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.titletwo{
+    text-align: left,justify;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.firsttext{
+    font-size: 20px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.ingredientsone{
+    text-decoration: underline;
+   
+}
+
+.ingredientstwo{
+    text-decoration: underline;
+}
+
+.methodone{
+    text-decoration: underline;
+    text-align: left;
+}
+
+.methodtwo{
+    text-decoration: underline;
+    text-align: left;
+}
+
+
