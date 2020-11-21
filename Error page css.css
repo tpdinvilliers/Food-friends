@@ -1,0 +1,19 @@
+
+body{
+    background-color: rgb(102, 140, 127);
+    padding:70px;
+    margin: 50px;
+    length: 100px;
+}
+.errorheading{
+    background-color: white;
+    font-size: 65px;
+    text-align: center;
+    padding:100px;
+    font-family: 'Hepta Slab', serif;;
+}
+.secondtext{
+    font-size: 55px;
+    font: 'Hepta Slab', serif;
+    text-align: center;
+}
