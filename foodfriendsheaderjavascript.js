@@ -1,10 +1,12 @@
 var helloworld ="hello world"
 console.log(helloworld);
 
-var recipeList = [["pesto pasta", "https://www.google.com"],
- ["chicken pasta", "https://www.facebook.com"], 
- ["easy risotto", "https://www.instagram.com"], 
- ["Leek and potato soup", "https://www.youtube.com"]]
+var recipeList = [["Easy lemon chicken stir fry", "website.html"],
+ ["spaghetti bolognese", "ingredients.html"], 
+ ["veggie pizza", "ingredients.html"], 
+ ["Leek and potato soup", "Errorpage.html"],
+ ["chicken pasta", "Errorpage.html"],
+ ["pesto pasta", "Errorpage.html"]]
 
 topButton= document.getElementById("topButton")
 function topFunction() {
