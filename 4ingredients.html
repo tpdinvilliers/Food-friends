@@ -2,8 +2,10 @@
     <HTML>
         <HEAD>
             <title>Easy Four Ingredient Recipes</title>
-    <link rel="stylesheet" href="style.css"
-        </head>
+    <link rel="stylesheet" href="foodfriendsheaderstyle.css">
+    <script src="foodfriendsheaderjavascript.js"></script> 
+
+        </HEAD>
             <BODY>
               
 
@@ -85,3 +87,64 @@
 <p5>Step 5: Add some salt to taste and some chopped basil for garnish. Enjoy! </p5>
 </ul>
 </article>
+
+
+<div class="header">
+    <div class="header-left">
+      <a class="link" href="Homepage html.html">Home</a>
+      <a class="link" href="website.html">Recipe of the week</a>
+      <a class="link" href="foodfriendssearchpage.html">Search</a>
+    </div>
+    <div class="header-center">
+        <a href="Homepage html.html">
+            <img class=logo src="logo cropped.jpg" alt="Food Friends">
+        </a>
+    </div>
+    <div class="header-right">
+        <form>
+            <input 
+                type = "text"
+                id ="search"
+                class="search"
+                onkeyup="searchHeaderText()"
+                placeholder="Search for recipes">
+            </input>
+            <input
+                type ="button"
+                value ="Go"
+                id ="searchButton"
+                class ="searchButton" 
+                onClick = "searchHeaderSubmit()">
+            </input>
+        </form>
+        <div class="container">Search Results</div>
+    </div>
+  </div>      
+
+<div class="footer">
+<div class="footer-left">
+    <a href="https://www.instagram.com">
+        <img src="instagram logo.png" width=30 alt="Instagram">
+    </a>
+    <a href="https//:www.twitter.com">
+        <img src="twitter logo.png" width=30  alt="Twitter">
+    </a>
+    <a href="https://www.facebook.com">
+        <img src="facebook logo.png" width=30 alt="Facebook">
+    </a>
+  </div>
+  <div class="footer-center">
+    Thank you for visiting food friends!
+  </div>
+  <div class="footer-right">
+      <button onClick="topFunction()" id="topButton">TOP</button>
+  </div>
+
+
+</article>
+
+</div>
+
+</body>
+
+</html>
