@@ -1,24 +1,24 @@
-<DOCTYPE>
+<!DOCTYPE html>
     <HTML>
         <HEAD>
-    <link rel="stylesheet" href="style.css"
-        </HEAD>
-            <BODY>
+    <link rel="stylesheet" href="foodfriendsheaderstyle.css"
 
 <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
   Check out our new recipe of the week!!
 </div>
 
-<h1>
+<body>
+
+<h5>
     Easy lemon chicken stir fry
-</h1>
+</h5>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TWm1IJ9IoxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </BODY>
 <article>
-<h2>Ingredients</h2>
+<h6>Ingredients</h6>
 <ul>
-    <li>4 chciken breasts, diced </li>
+    <li>4 chicken breasts, diced </li>
     <li>1 tbsp honey</li>
     <li>250ml chicken stock</li>
     <li>1 tbsp soy sauce</li>
@@ -29,9 +29,62 @@
     <li>1 red pepper, cut into chunks</li>
     <li>140g sugar snap peas</li>
 
-<h3>Preparation</h3>
+<h7>Preparation</h7>
 <p1> Step 1: In a jug, mix together the honey, lemon stock and soy, then set aside. Toss the chicken with the cornflour so it's completely coated. Heat the oil in a non-stick pan, then fry the chicken until it is crisp around the edges and golden brown.</p1>
 <hr>
 <p2>Step 2: Add the carrots and red pepper, then fry. Pour the stock into the pan, bring to a simmer, then add the sugar snap peas and simmer eveerything together for 5 minutes until the chicken is cooked and the vegetables are tender. Serve with noodles or white rice.</p2>
 </ul>
 </article>
+
+<div class="header">
+    <div class="header-left">
+      <a class="link" href="Homepage html.html">Home</a>
+      <a class="link" href="website.html">Recipe of the week</a>
+      <a class="link" href="foodfriendssearchpage.html">Search</a>
+    </div>
+    <div class="header-center">
+        <a href="Homepage html.html">
+            <img class=logo src="logo cropped.jpg" alt="Food Friends">
+        </a>
+    </div>
+    <div class="header-right">
+        <form>
+            <input 
+                type = "text"
+                id ="search"
+                class="search"
+                onkeyup="searchHeaderText()"
+                placeholder="Search for recipes">
+            </input>
+            <input
+                type ="button"
+                value ="Go"
+                id ="searchButton"
+                class ="searchButton" 
+                onClick = "searchHeaderSubmit()">
+            </input>
+        </form>
+        <div class="container">Search Results</div>
+    </div>
+  </div>      
+
+<div class="footer">
+<div class="footer-left">
+    <a href="https://www.instagram.com">
+        <img src="instagram logo.png" width=30 alt="Instagram">
+    </a>
+    <a href="https//:www.twitter.com">
+        <img src="twitter logo.png" width=30  alt="Twitter">
+    </a>
+    <a href="https://www.facebook.com">
+        <img src="facebook logo.png" width=30 alt="Facebook">
+    </a>
+  </div>
+  <div class="footer-center">
+    Thank you for visiting food friends!
+  </div>
+  <div class="footer-right">
+      <button onClick="topFunction()" id="topButton">TOP</button>
+  </div>
+
+  </html>

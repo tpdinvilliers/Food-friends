@@ -120,3 +120,188 @@ body {
   background-color: white;
   color: black
 }
+
+
+/* Anya's bit */
+
+h1 {
+  color: black;
+  font-size: 50px;
+  font-family: Times;
+  padding: 10px;
+  margin: 15px;
+  text-align:center;
+
+}
+
+
+ul {
+  color: rgb (181,136,152);
+  font-size: 20px;
+  font-family: Times;
+  padding: 1px;
+  border: 2px solid rgb(181,136,152);
+  margin: 15px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family: Times;
+  padding: 10px;
+  margin: 15px;
+}
+
+img {
+  color: white;
+  font-size: 12px;
+  font-family: Times;
+  padding: 3px;
+  background-color:white;
+  border: 2x white;
+
+}
+
+figcaption {
+  color: rgb(102, 140, 127);
+  font-style: italic;
+  padding: 2px;
+}
+
+
+h3 {
+  color: black;
+  font-size: 30px;
+  padding: 2px;
+  font-family: Times;
+  text-align: center;
+}
+
+h4 {
+text-align: center;
+font-size: 25px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+a:hover {
+  color: blue;
+}
+
+.image {
+  text-align: center;
+  padding: 3px;
+}
+
+/* Iyza's bit */
+
+body{
+  background-color: rgb(102, 140, 127);
+  padding:70px;
+  margin: 50px;
+  length: 100px;
+}
+.errorheading{
+  background-color: white;
+  font-size: 65px;
+  text-align: center;
+  padding:100px;
+  font-family: 'Hepta Slab', serif;;
+}
+.secondtext{
+  font-size: 55px;
+  font: 'Hepta Slab', serif;
+  text-align: center;
+  color: pink;
+}
+
+/* Sarah's bit */
+
+h5 {
+  color: black;
+  text-decoration: overlineunderline;
+  font-family: 'Sansita Swashed' , cursive;
+  font-size: large;
+}
+
+h6 {
+  color: black;
+  text-decoration: overlineunderline;
+  font-family: 'Sansita Swashed' , cursive;
+  font-size: medium;
+}
+
+h7 {
+  color: black;
+  text-decoration: overlineunderline;
+  font-family: 'Sansita Swashed' , cursive;
+  font-size: medium;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+/* Iyza and Layla's part*/
+
+
+.bodyone {
+    padding: 100px;
+    background-color: white;
+}
+
+.title {
+    font-size: 90px;
+    text-align: center;
+}
+
+.titleone{
+    text-align: left,justify;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.titletwo{
+    text-align: left,justify;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.firsttext{
+    font-size: 20px;
+    text-align: center;
+}
+
+h8{
+    font-size: 25px;
+}
+
+.ingredientsone{
+    text-decoration: underline;
+   
+}
+
+.ingredientstwo{
+    text-decoration: underline;
+}
+
+.methodone{
+    text-decoration: underline;
+    text-align: left;
+}
+
+.methodtwo{
+    text-decoration: underline;
+    text-align: left;
+}
+
+
