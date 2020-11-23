@@ -75,10 +75,10 @@ function searchSubmit() {
 const displayHeaderSearchResults = (searchResults) => {
     const resultsList = document.getElementById("resultsListHeader");
     console.log("search results are " + searchResults)
-    const htmlString = searchResults.map((result) => {
+    const htmlString =  searchResults.map((result) => {
         return `<li class="result"> <a href=${result[1]}>${result[0]}</a></li> 
         `;
-    })
+    }) 
     .join(``)
 
     console.log(htmlString);
